@@ -13,7 +13,7 @@ namespace TesteApi
         {
             WriteLine("Hello World!");
 
-            var api = Api.Current;
+            var api = FP.Current;
             
             api.Init();
 
@@ -46,7 +46,7 @@ namespace TesteApi
             try
             {
 
-                var api = Api.Current;
+                var api = FP.Current;
                 var fp = new GenerateFP
                 {
                     FromIcao = "EHAM",

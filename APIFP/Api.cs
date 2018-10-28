@@ -12,18 +12,18 @@ using System.Collections.Generic;
 
 namespace APIFP
 {
-    public class Api
+    public class FP
     {
-        static Lazy<Api> LazyApi = new Lazy<Api>(() => new Api());
+        static Lazy<FP> LazyApi = new Lazy<FP>(() => new FP());
 
-        public static Api Current => LazyApi.Value;
+        public static FP Current => LazyApi.Value;
 
         HttpClient Client;
 
         public int DayLimit { get; private set; }
         public int RequestNumber { get; private set; }
 
-        Api() => Client = new HttpClient();
+        FP() => Client = new HttpClient();
 
         public void Init(string api = KeyRepo.MinhaChave, Units units = Units.AVIATION)
         {
