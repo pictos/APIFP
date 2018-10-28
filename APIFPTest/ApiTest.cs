@@ -10,7 +10,6 @@ namespace APIFPTest
     [TestClass]
     public class ApiTest
     {
-
         FP api = FP.Current;
 
         [TestMethod]
@@ -68,6 +67,5 @@ namespace APIFPTest
 
             Assert.IsInstanceOfType(result, typeof(List<UserFp>));
         }
-        
     }
 }
