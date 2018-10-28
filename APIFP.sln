@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFP", "APIFP\APIFP.csproj", "{9F60FFB2-D4B6-4123-A30D-FC0AE9838FEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIFP", "APIFP\APIFP.csproj", "{9F60FFB2-D4B6-4123-A30D-FC0AE9838FEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteApi", "TesteApi\TesteApi.csproj", "{525FEEE7-6F6D-4A04-BF8E-F3DF64467072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteApi", "TesteApi\TesteApi.csproj", "{525FEEE7-6F6D-4A04-BF8E-F3DF64467072}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DC3236C6-17D1-4458-BCCC-E325C3D49246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFPTest", "APIFPTest\APIFPTest.csproj", "{6B98B276-EEF4-40AB-AD76-14D96E0A82A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{525FEEE7-6F6D-4A04-BF8E-F3DF64467072}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{525FEEE7-6F6D-4A04-BF8E-F3DF64467072}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{525FEEE7-6F6D-4A04-BF8E-F3DF64467072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B98B276-EEF4-40AB-AD76-14D96E0A82A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B98B276-EEF4-40AB-AD76-14D96E0A82A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B98B276-EEF4-40AB-AD76-14D96E0A82A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B98B276-EEF4-40AB-AD76-14D96E0A82A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B98B276-EEF4-40AB-AD76-14D96E0A82A5} = {DC3236C6-17D1-4458-BCCC-E325C3D49246}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FFDD185-8F71-4117-A62F-F625FE2BE24E}

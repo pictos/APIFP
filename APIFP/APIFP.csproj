@@ -6,6 +6,7 @@
     <Description>NugetTeste</Description>
     <Copyright>None</Copyright>
     <LangVersion>7.3</LangVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

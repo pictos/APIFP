@@ -27,13 +27,6 @@ namespace APIFP
 
         public void Init(string api = KeyRepo.MinhaChave, Units units = Units.AVIATION)
         {
-
-            if (units is Units.AVIATION)
-                Console.WriteLine("é aviation");
-
-            if (!(units is Units.AVIATION))
-                Console.WriteLine("não é aviation");
-
             Client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(api);
             Client.DefaultRequestHeaders.Add("X-Units", units.ToString());
         }
